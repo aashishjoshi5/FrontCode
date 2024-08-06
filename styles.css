@@ -1,0 +1,71 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+    font-size: large;
+}
+body{
+    background-color: rgb(67, 67, 67);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.leftContainer{
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+   flex-basis: 50%;
+   border: aqua;
+   display: flex;
+   flex-direction: column;
+  
+   
+}
+.rightContainer{
+    background-color: rgb(5, 148, 48);
+    height: 100%;
+    flex-basis: 50%;
+    border: black;
+}
+.content{
+    flex-basis: 33%;
+    background-color: black;
+    color: white;
+    
+}
+.leftContainer .content label{
+    display: block;
+    background-color: rgb(6,7,7);
+    padding: 10px 0px;
+    padding-left: 7px;
+}
+.leftContainer .content textarea{
+    height: 80%;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: rgb(29,31,35);
+    color: white;
+}
+
+/* //right part  */
+.rightContainer label{
+    display: block;
+   background-color: rgb(71,207,115);
+   color: rgb(0, 0, 0);
+   padding: 10px 0px;
+   padding-left: 7px;
+}
+.rightContainer iframe{
+    display: block;
+    height: 95%;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px red solid;
+    background-color: rgb(254,255,254);
+    
+
+}
+ i{
+    padding-right: 8px;
+}
